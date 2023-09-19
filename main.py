@@ -11,26 +11,11 @@ from langchain.chains.question_answering import load_qa_chain
 from langchain.callbacks import get_openai_callback
 import os
  
-# Sidebar contents
-#with st.sidebar:
- #   st.title('🤗💬 LLM Chat App')
-  #  st.markdown('''
-  #  ## About
-  #  This app is an LLM-powered chatbot built using:
-  #  - [Streamlit](https://streamlit.io/)
-  #  - [LangChain](https://python.langchain.com/)
-  #  - [OpenAI](https://platform.openai.com/docs/models) LLM model
- #
-  #  ''')
-  #  add_vertical_space(5)
- #   st.write('ZANOCH')
  
 load_dotenv()
  
 def main():
-   # st.header("ZANOCH")
- 
- 
+   
     # upload a PDF file
     pdf = st.file_uploader("Upload your PDF", type='pdf')
  

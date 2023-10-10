@@ -7,7 +7,7 @@ This project is a Streamlit-powered web application that extracts text from PDF 
 Streamlit is an open-source Python library that makes it easy to create and share beautiful, custom web apps.
 
 
-- ask questions related to the document's content.
+- Ask questions related to the document's content.
 - Web-based frontend.
 
 ## Features
